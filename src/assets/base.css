@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  @apply bg-white min-h-screen font-inter text-base leading-[normal];
+}
+
+h1 {
+  @apply text-40 font-bold leading-[48.41px] mb-2.5;
+}
+
+h3 {
+  @apply text-23 font-bold mb-2.5;
+}
+
+.container {
+  @apply max-w-[1200px] mx-auto;
+}
